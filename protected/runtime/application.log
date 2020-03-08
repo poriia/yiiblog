@@ -1,0 +1,8 @@
+2020/03/07 16:14:59 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "gii". in J:\laragon\www\yii1\framework\web\CWebApplication.php:286
+Stack trace:
+#0 J:\laragon\www\yii1\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 J:\laragon\www\yii1\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 J:\laragon\www\liateam\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php?r=gii
+---
